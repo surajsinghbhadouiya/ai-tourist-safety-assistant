@@ -8,6 +8,8 @@ import SafetyAlerts from './pages/SafetyAlerts';
 import Itineraries from './pages/Itineraries';
 import Places from './pages/Places';
 import Community from './pages/Community';
+import AIAssistant from './components/AIAssistant';
+import JokeGenerator from './components/JokeGenerator';
 import Login from './pages/Login';
 import Register from './pages/Register';
 
@@ -41,6 +43,8 @@ function App() {
               <Route path="/itineraries" element={<Itineraries />} />
               <Route path="/places" element={<Places />} />
               <Route path="/community" element={<Community />} />
+              <Route path="/ai-assistant" element={<AIAssistant />} />
+              <Route path="/jokes" element={<JokeGenerator />} />
             </>
           ) : (
             <>
